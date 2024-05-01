@@ -1,0 +1,72 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("watercolor6.jpg");
+  }
+  
+  nav {
+    background-color: #333;
+    top: 0;
+    position: fixed;
+    padding: 10px 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+   
+  }
+  
+  nav ul li a:hover {
+    background-color: #1f083d;
+    
+  }
+  
+  header {
+    background-color:rgb(4, 34, 63);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  section {
+    padding: 100px 20px;
+  }
+  
+  #about {
+    
+    border-image-outset:0px;
+  }
+  
+  .project {
+    margin-bottom: 50px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
